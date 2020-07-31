@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## The function above do the following thigns:
+## The makeCacheMatrix function do the following thigns:
  # 1. Set the value of the matrix
  # 2. Get the value of the matrix
  # 3. Set the value of the inverse
@@ -36,3 +36,6 @@ cacheSolve <- function(x, ...) {
   x$setinverse(inv)
   inv
 }
+
+## The cacheSolve function returns the inverse of a given matrix 
+ # and set the inverse value for reuse
